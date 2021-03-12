@@ -1,0 +1,12 @@
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.1\Core.dll
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb

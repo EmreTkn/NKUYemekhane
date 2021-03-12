@@ -1,0 +1,4 @@
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\bin\Debug\netstandard2.0\Core.dll
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\emret\source\repos\NKUYemekhane\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs

@@ -1,0 +1,45 @@
+.cart-no {
+  position: absolute;
+  min-height: 25px;
+  min-width: 25px;
+  border-radius: 50%;
+  font-size: 1em;
+  background: blue;
+  color: white;
+  text-align: center;
+  top: -12px;
+  right: -15px;
+}
+.shop-card:hover{
+  color: rgb(97, 97, 231);
+}
+
+a {
+  text-decoration: none;
+  color:white;
+
+  &.active {
+      color: orange;
+  }
+  &.caca{
+   color: black;
+  }
+}
+.navItemMain{
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+.navItemAuth{
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+
+}
+.basket{
+  display: flex;
+  justify-content: flex-end;
+}
+
+

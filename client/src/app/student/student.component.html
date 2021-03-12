@@ -1,0 +1,54 @@
+<div  class="container m-auto">
+<div class="row mt-5 selectionHeader">
+<a class="btn btn-outline-dark mt-2 mr-5" style="cursor: pointer;" (click)="onMorningSelected(1)">Öğle</a>
+<a class="btn btn-outline-dark mt-2 ml-5" style="cursor: pointer;" (click)="onNightgSelected(2)">Akşam</a>
+<select class="custom-select" style="width: fit-content;" (change)="onSchoolSelected($event.target.value)">
+    <option *ngFor="let item of scholl" value="{{item.id}}">
+      {{item.name}}
+    </option>
+</select>
+
+</div>
+
+<div class="row">
+  <div  class="card border-success mr-auto ml-auto mt-2 mb-2" *ngFor="let item of menus">
+    <div class="card-header  border-success text-center headerLine">
+      {{item.day}}/{{item.month}}/{{item.year}}
+    </div>
+    <div class="card-body mb-5">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Yemek 1:</span>
+        </div>
+        <input  type="text" class="form-control inputForm" disabled aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="{{item.foodFirst}}">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Yemek 2:</span>
+        </div>
+        <input type="text" class="form-control inputForm" disabled aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="{{item.foodSecond}}">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" >Yemek 3:</span>
+        </div>
+        <input  type="text" class="form-control inputForm" disabled aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="{{item.foodThird}}">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Yemek 4:</span>
+        </div>
+        <input type="text" class="form-control inputForm" disabled aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="{{item.foodFourth}}">
+      </div>
+    </div>
+    <div class="card-footer bg-transparent border-success addToCardBtn">
+      <button class="btn btn-outline-secondary addToCardBtn" (click)="addItemToBasket(item)" type="submit">Sepete Ekle</button>
+    </div>
+  </div>
+</div>
+</div>
+
+

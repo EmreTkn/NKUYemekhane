@@ -1,0 +1,22 @@
+.formDiv{
+border: 3px solid RGB(233, 236, 239);
+}
+.pDiv{
+  text-align:center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  background-color: RGB(233, 236, 239);
+  border: 1px solid RGB(233, 236, 239);
+  border-radius: 6%;
+  height: 30px;
+}
+.formButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.addToCardBtn{
+  display: flex;
+  justify-content: center;
+}

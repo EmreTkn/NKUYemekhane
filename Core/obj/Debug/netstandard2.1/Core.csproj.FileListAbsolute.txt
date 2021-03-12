@@ -1,0 +1,9 @@
+C:\Users\emret\source\repos\NKUYemekhane\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\Users\emret\source\repos\NKUYemekhane\Core\bin\Debug\netstandard2.1\Core.dll
+C:\Users\emret\source\repos\NKUYemekhane\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.csprojAssemblyReference.cache
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.dll
+C:\Users\emret\source\repos\NKUYemekhane\Core\obj\Debug\netstandard2.1\Core.pdb

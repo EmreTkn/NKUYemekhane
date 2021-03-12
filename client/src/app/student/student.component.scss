@@ -1,0 +1,41 @@
+
+
+.addToCardBtn:hover{
+background-color: rgba(22, 97, 236, 0.137);
+color: black;
+}
+.keko{
+  border-bottom: 3px solid black;
+  &:hover{
+    background-color: red;
+  }
+}
+
+.headerLine{
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch;
+  background:rgb(66, 66, 66);
+  color: white;
+  &.headerLine i{
+  margin-top: 0.3rem;
+  }
+}
+.selectionHeader{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.formButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.addToCardBtn{
+  display: flex;
+  justify-content: center;
+}
+.inputForm{
+  background-color:rgba(22, 97, 236, 0.137);
+}

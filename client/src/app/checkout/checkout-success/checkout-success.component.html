@@ -1,0 +1,8 @@
+<div class="container mt-5">
+  <div><i class="fa fa-check-circle fa-5x" style="color: green;"></i></div>
+  <h2>Siparişiniz Tamamlandı.</h2>
+  <p class="mb-4">Siparişinizi göstererek yemekhaneden menünüzü teslim alabilirsiniz.</p>
+  <button *ngIf="order" routerLink="/orders/{{order?.id}}" class="btn btn-outline-success">Siparişi Göster</button>
+  <button *ngIf="!order" routerLink="/orders" class="btn btn-outline-success">Siparişleri Göster</button>
+
+</div>

@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark bg-dark">
+
+  <ng-container *ngIf="(currentUser$ | async) === null">
+    <div class="navItemAuth">
+      <a routerLink="/account/login" class="btn btn-outline-success mr-2">Giriş</a>
+    <a routerLink="/account/register" class="btn btn-outline-primary">Kayıt Ol</a>
+    </div>
+  </ng-container>
+  <ng-container  *ngIf="currentUser$ | async">
+    <div class="navItemMain">
+      <a class="nav-link btn btn-outline-light mr-2" routerLink="/student">Öğrenci</a>
+      <a class="nav-link btn btn-outline-light ml-1" routerLink="/admin">Admin</a>
+    </div>
+    <div class="basket mt-auto">
+      <a routerLink="/basket" class="position-relative">
+        <i class="fa fa-shopping-cart fa-2x mr-1 shop-card"></i>
+        <div *ngIf="(basket$ | async)" class="cart-no">{{(basket$ | async).items.length}}</div>
+      </a>
+
+    <div class="dropdown ml-5 mr-5" dropdown>
+      <a class="dropdown-toggle" style="cursor: pointer" dropdownToggle>
+        <strong>Hoşgeldiniz {{(currentUser$ | async).schoolNumber}}</strong>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" style="cursor: pointer;" *dropdownMenu>
+        <a routerLink="/basket" class="dropdown-item d-flex align-items-center caca py-2">
+          <i class="fa fa-shopping-cart mr-3"></i> Sepet
+        </a>
+        <a routerLink="/orders" class="dropdown-item d-flex align-items-center caca py-2">
+          <i class="fa fa-history mr-3"></i> Siparişlerim
+        </a>
+        <div class="dropdown-divider"></div>
+        <a (click)="logout()" class="dropdown-item d-flex align-items-center caca py-2">
+          <i class="fa fa-sign-out mr-3"></i> Çıkış
+        </a>
+      </div>
+    </div>
+  </div>
+  </ng-container>
+
+</nav>
